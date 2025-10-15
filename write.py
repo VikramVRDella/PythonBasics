@@ -1,0 +1,5 @@
+f=open("/home/vrdella/python3ex/write.txt","x")
+f=open("/home/vrdella/python3ex/write.txt","a")
+f.write("This is the experiment")
+f=open("/home/vrdella/python3ex/write.txt")
+print(f.read())
