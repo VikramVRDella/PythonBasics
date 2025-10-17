@@ -77,6 +77,7 @@ message=addfun1()
 print(message[0])
 print(message[1])
 print(message[2])
+<<<<<<< HEAD
 print("\n")
 print("Positional Arguments Only...")
 def fun9(name,/):
@@ -99,3 +100,5 @@ d=int(input("Enter Number : "))
 def fun11(x,y,/,*,z,k):
     return(f"{x+y} and {z+k}")
 print(fun11(a,b,z=c,k=d))
+=======
+>>>>>>> 54f0a085bca0651f5fa515acb2e2a66b82f68acd
