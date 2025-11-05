@@ -1,0 +1,5 @@
+fastapi[standard]
+pydantic
+mysql-connector-python
+djangorestframework
+mysqlclient
